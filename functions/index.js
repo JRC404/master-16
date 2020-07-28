@@ -81,6 +81,8 @@ const takeOrder = (size, drinkType, shop) => {
     }
 }
 
+
+
 //* small, medium, large
 //* coke, fanta, water, 7UP
 //* have 5 different orders with different drinks and sizes
@@ -107,3 +109,10 @@ console.log(numberOne + numberTwo)
 numberOne = 100
 numberTwo = 50
 console.log(numberOne + numberTwo)
+
+const addNumbers = (numberOne, numberTwo) => {
+    console.log(numberOne + numberTwo)
+}
+
+addNumbers(10, 20)
+addNumbers(100, 50)
