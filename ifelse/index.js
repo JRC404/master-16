@@ -62,6 +62,9 @@ else if (age <= 20) {
 else if (age <= 65) {
     console.log("A few more years and you'll get the senior discount.")
 }
+else if (age < 100) {
+    console.log("You're doing well.")
+}
 
 else {
     console.log("Well done, you qualify for 1% off entry.")
