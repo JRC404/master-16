@@ -60,7 +60,7 @@ const carSelector = (car) => {
 // alarmSetter("Thursday")
 // alarmSetter("Sunday")
 
-const takeOrder = (size, drinkType, shop) => {
+/* const takeOrder = (size, drinkType, shop) => {
     console.log(`You ordered a ${size} ${drinkType} at ${shop}`)
     switch (size) {
         // if small
@@ -79,7 +79,7 @@ const takeOrder = (size, drinkType, shop) => {
             console.log("You have inserted an incorrect drink size")
             break;
     }
-}
+} */
 
 
 
@@ -89,7 +89,7 @@ const takeOrder = (size, drinkType, shop) => {
 //* 5 console logs displayed
 //* Please make the if statement a switch case
 
-takeOrder("extra-large", "coke", "McDonalds")
+/* takeOrder("extra-large", "coke", "McDonalds")
 takeOrder("medium", "fanta", "KFC")
 takeOrder("large", "water", "Walmart")
 
@@ -112,7 +112,30 @@ console.log(numberOne + numberTwo)
 
 const addNumbers = (numberOne, numberTwo) => {
     console.log(numberOne + numberTwo)
+} */
+
+/* addNumbers(10, 20)
+addNumbers(100, 50) */
+
+const cashWithdrawl = (accountNumber, amountWithdrawn, balance) => {
+    // accountNumber
+    // amountWithdrawn
+    // balance
+    //? what do I have do to withdraw from account
+    //? PART 1: log the parameters in the console
+    if (amountWithdrawn <= balance) {
+        balance -= amountWithdrawn //* takes the value of balance and amountWithdrawn and updates balance.
+        console.log(`Withdrawing £${amountWithdrawn} from ${accountNumber}. You have £${balance} left.`);
+    }
+    // else if (amountWithdrawn > balance) {
+    //     console.log("Do you want an overdraft?")
+    // }
+    else {
+        console.log(`You don't have enough money. You tried to withdraw £${amountWithdrawn} when you only have £${balance} left.`)
+    }
+    // balance -= amountWithdrawn // what's the issue with this?
+    // this doesn't check if there is enough money in the account...
+    // * PART 2: actually take the amount away from the balance!!
 }
 
-addNumbers(10, 20)
-addNumbers(100, 50)
+cashWithdrawl(12345678, 1000, 1000);
