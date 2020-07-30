@@ -25,6 +25,7 @@ let age = 55; // number
  */
 
 // let myName = "Hamza Mahmood";
+
 // * declaration: let myName;
 // * definition: "Hamza Mahmood"
 let hamzaAge = 19;
