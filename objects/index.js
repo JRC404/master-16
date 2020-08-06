@@ -73,6 +73,27 @@ console.log(developer)
 //     console.log("It's a Chromebook, isn't it?")
 // }
 
+const anotherStudent = {
+    name: "there must be another way",
+    role: "seriously. There must be.",
+    hobbies: ["this cannot be efficient?", "surely not?", "Is this how people do it?", "oh no. Please tell me there is another way?"],
+    languages: ["There isn't time to learn new languages because we are doing so many objects over and over again and over and over again and... you get the point.", "bruh."],
+    startingTime: "I haven't finished the last object yet, give me a minute.",
+    startWork() {
+        console.log("I haven't been to work in weeks, I am rocking in a corner.")
+    },
+    finishWork() {
+        console.log("I didn't even copy this and replace the text. I typed it all out. Help.")
+    },
+    roleCheck() {
+        console.log("I cannot even anymore.")
+    },
+    namePrint() {
+        console.log(this.name);
+    }
+}
+
+anotherStudent.namePrint()
 // create a starbucks coffee shop object...
 /*
 
