@@ -41,7 +41,6 @@ const developer = {
         console.log("I am starting work.")
     },
     finishWork() { // ES6 syntax object
-        // return "Cheese";
         console.log("I am finished with work for the day.")
     },
     roleCheck() {
@@ -73,7 +72,7 @@ console.log(developer)
 //     console.log("It's a Chromebook, isn't it?")
 // }
 
-const anotherStudent = {
+const anotherDeveloper = {
     name: "there must be another way",
     role: "seriously. There must be.",
     hobbies: ["this cannot be efficient?", "surely not?", "Is this how people do it?", "oh no. Please tell me there is another way?"],
