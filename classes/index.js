@@ -34,7 +34,7 @@ const alex = new Bunny()
 // stuart.decreaseHops()
 // console.log(stuart) // what should the value of hops be for stuart?
 
-class CodeNation  {
+class CodeNation {
     constructor(name, role, location) {
     this.name = name;
     this.role = role;
@@ -42,6 +42,9 @@ class CodeNation  {
     this.employer = "Code Nation";
     }
 }
+
+// student extends CodeNation
+// staff extends CodeNation
 
 // const neil = new CodeNationStaff("Neil", ["Senior Guru", "Mentor", "Instructor"], "Manchester")
 // console.log(neil.role)
