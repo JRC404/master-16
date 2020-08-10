@@ -22,7 +22,7 @@ const paragraphs = document.getElementsByTagName("p");
 
 //* functions
 myHeading.addEventListener("click", ()=> {
-    console.log(`The paragraphs array length is: ${paragraphs.length}`)
+    console.log(`The paragraphs length is: ${paragraphs.length}`)
     
 })
 
@@ -31,20 +31,20 @@ myHeading.addEventListener("click", ()=> {
 button.addEventListener("click",()=> {
     //? the heading will change color to the input box's value
     // myHeading.style.color = input.value;
-    //* targeted an array, the first index of the paragraphs array
+    //* targeted like an array, the first index of the paragraphs 
     // paragraphs[0].style.color = input.value;
     // for (let i = 0; i < paragraphs.length; i++){
     //     paragraphs[i].style.color = input.value;
     // }
 
-    for(i = 0; i < purpleParagraphs.length; i++) {
-        purpleParagraphs[i].style.color = input.value;
-    }
+    // for(i = 0; i < purpleParagraphs.length; i++) {
+    //     purpleParagraphs[i].style.color = input.value;
+    // }
     for(i = 0; i < notPurpleParagraphs.length; i++) {
         notPurpleParagraphs[i].style.color = "orange";
     }
     for (const paragraph of purpleParagraphs) {
-        console.log(paragraph)
+        paragraph.style.color = input.value;
     }
     
 })
